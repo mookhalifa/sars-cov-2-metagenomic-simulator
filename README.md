@@ -64,7 +64,7 @@ python simulate_metagenome.py --help
 ```
 python simulate_metagenome.py \
     --genomes_file ../example/genome.fasta \
-    --temp_folder ../example/temp/
+    --temp_folder ../example/temp/ \
     --genome_abundances ../example/abundances.tsv \
     --primer_set a1 \
     --output_folder ../simulation_output \
